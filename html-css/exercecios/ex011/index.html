@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Imagens dinâmicas</title>
+</head>
+<body>
+    <picture>
+        <h1>Imagens dinâmicas</h1>
+        <p> Tente abrir esse site em vários dispositivos diferentes <br>
+            ou simplesmente aumente e diminua o tamanho do seu navegador.
+        </p>
+        <source media="(max-width: 750px)" srcset="Imagens/Imagen-pequena-300x300.jpg" type="image/jpeg">
+        <source media="(max-width: 1050px)" srcset="Imagens/Imagen-media-700x700-02.jpg" type="image/jpeg">
+        <img src="Imagens/Imagens-grande-1000x1000-03.jpg" alt="Imagem grande">
+    </picture>
+    <h1>Podcast</h1>
+    <p>Aqui vai um techo do poscast do guanabara de anos atrás</p>
+    <audio preload="none" controls>
+        <source src="Audios/guanacast-33.mp3" type="audio/mpeg">
+    </audio>
+    <p><a href="Audios/guanacast-33.mp3" download="guanacast-33.mp3" type="audio/mpeg" target="_blank">Caso você queira baixa em Mp3</a></p>
+</body>
+</html>
